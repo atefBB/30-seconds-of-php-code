@@ -1,14 +1,14 @@
 ![Logo](/logo.png)
 
-# 30 seconds of php code
-> A curated collection of useful PHP snippets that you can understand in 30 seconds or less.
+# 30 ثانية من البرمجة بلغة PHP
+> مجموعة مختارة من الشفرات بلغة PHP .يمكن فهمها في 30 ثانية أو أقل
 
-## Table of Contents
+## جدول المحتويات
 
-### 📚 Array
+### 📚 المصفوفات
 
 <details>
-<summary>View contents</summary>
+<summary>مشاهدة المحتوى</summary>
 
 * [`all`](#all)
 * [`any`](#any)
@@ -32,10 +32,10 @@
 
 </details>
 
-### ➗ Math
+### ➗ رياضيات
 
 <details>
-<summary>View contents</summary>
+<summary>مشاهدة المحتويات</summary>
 
 * [`average`](#average)
 * [`factorial`](#factorial)
@@ -48,10 +48,10 @@
 
 </details>
 
-### 📜 String
+### 📜 السلاسل النصية
 
 <details>
-<summary>View contents</summary>
+<summary>مشاهدة المحتويات</summary>
 
 * [`endsWith`](#endswith)
 * [`firstStringBetween`](#firststringbetween)
@@ -63,10 +63,10 @@
 
 </details>
 
-### 🎛️ Function
+### 🎛️ الدوال
 
 <details>
-<summary>View contents</summary>
+<summary>مشاهدة المحتويات</summary>
 
 * [`compose`](#compose)
 
@@ -76,7 +76,7 @@
  ## 📚 Array
 
 ### all
-Returns `true` if the provided function returns `true` for all elements of an array, `false` otherwise.
+ترجع القيمة `true` إذا أرجعت الدالة القيمة `true` لكل العناصر في المصفوفة، وترجع القيمة `false` في الحالات الأخرى
 
 ```php
 function all($items, $func)
@@ -86,7 +86,7 @@ function all($items, $func)
 ```
 
 <details>
-<summary>Examples</summary>
+<summary>أمثلة</summary>
 
 ```php
 all([2, 3, 4, 5], function ($item) {
